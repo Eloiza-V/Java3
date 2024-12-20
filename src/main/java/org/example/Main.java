@@ -27,7 +27,7 @@ public class Main {
             //Переводим JSON-файл в структуру дерева JSON-node
             JsonNode jsonNode = objectMapper.readTree(new FileReader("persons.json"));
             for (JsonNode person : jsonNode) {
-                persons.add(new Person(person.get("name").asText(), person.get("age").asInt(),  person.get("email").asText()));
+                persons.add(new Person(person.get("name").asText(), person.get("dateOfBirth").asText(),   person.get("email").asText()));
             }
             logger.log(Level.INFO, "JSON файл успешно считан");
         }
@@ -57,6 +57,18 @@ public class Main {
         List<Person> old = persons.stream().filter(oldFilter::filter).toList();
 
         return List.of(children, youth, old);
+    }
+
+    //Метод фильтрации людей по високосному году рождения
+    public static List<Person> getLeapYearPersons(List<Person> persons) throws IOException {
+        for (Person person : persons) {
+            int year = Integer.parseInt(person.getDateOfBirth().substring(6, 10));
+            //если год делится на 400 или делится на 4 но не делится на 100
+            if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
+                logger.log(Level.INFO, person.getName() + " родился в високосный год");
+            }
+        }
+        return persons;
     }
 
     // Метод фильтрации персон
@@ -103,7 +115,6 @@ public class Main {
         logger.log(Level.INFO, "Время выполнения: " + (end - start) + " мс");
     }
 
-
     public static void main(String[] args) throws IOException {
         logger = LoggerConfig.createLogger(Main.class);
         // Получаем список людей из json файда
@@ -124,5 +135,7 @@ public class Main {
 
         List<Person> filteredPersons = getFilterPersons(persons);
         writePersons(filteredPersons, "filteredPerson.json");
+
+        List<Person> get = getLeapYearPersons(persons);
     }
 }

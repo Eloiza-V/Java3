@@ -21,6 +21,7 @@ public class LoggerConfig {
         logger.setUseParentHandlers(false);
         //Возвращаем логгер с установленной конфигурацией
         return logger;
+
     }
 
 

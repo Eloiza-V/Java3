@@ -3,8 +3,8 @@ import java.util.regex.Pattern;
 
 public class Person {
     private String name;
+    private  String dateOfBirth;
     private int age;
-    //private  String dateOfBirth;
     private String email;
 
 //    // метод проверки корректности записанной даты
@@ -19,10 +19,11 @@ public class Person {
 //            throw new IllegalArgumentException("Некорректный формат почты");
 //    }
 
-    public Person(String name, Integer age, String email) {
+    public Person(String name, String dateOfBirth, String email) {
         this.name = name;
-        this.age = age;
-        //this.dateOfBirth = dateOfBirth;
+        this.dateOfBirth = dateOfBirth;
+        // получаем возраст из даты (год в коце)
+        this.age = 2024 - Integer.parseInt(dateOfBirth.substring(6, 10));
         this.email = email;
         //validateDate();
         //validateEmail();
@@ -34,13 +35,11 @@ public class Person {
 
     public int getAge() {
         return age;
-        //получаем из года рождения
-        //return 2024 - Integer.parseInt(dateOfBirth.substring(0, 4));
     }
 
-//    public String getDateOfBirth() {
-//        return dateOfBirth;
-//    }
+    public String getDateOfBirth() {
+        return dateOfBirth;
+    }
 
     public String getEmail() {
         return email;
@@ -50,10 +49,10 @@ public class Person {
         this.name = name;
     }
 
-//    public void setDateOfBirth(String dateOfBirth) {
-//        this.dateOfBirth = dateOfBirth;
-//        //validateDate();
-//    }
+    public void setDateOfBirth(String dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
+        //validateDate();
+    }
 
 
     public void setEmail(String email) {

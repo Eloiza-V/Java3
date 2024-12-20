@@ -1,62 +1,122 @@
-дек. 20, 2024 10:39:30 AM org.example.Main getPersons
+дек. 20, 2024 10:52:32 AM org.example.Main getPersons
 INFO: JSON файл успешно считан
-дек. 20, 2024 10:39:30 AM org.example.Main main
-INFO: Средний возраст: 32
-дек. 20, 2024 10:39:30 AM org.example.Main main
-INFO: Дети: [Юлия 6 123@gmail.ru]
-дек. 20, 2024 10:39:30 AM org.example.Main main
-INFO: Молодежь: [Дима 20 123@gmail.ru, Элоиза 19 123@gmail.ru, Александр 35 123@gmail.ru, Иван 30 123@gmail.ru, Кирилл 23 123@gmail.ru, Павел 21 123@gmail.ru]
-дек. 20, 2024 10:39:30 AM org.example.Main main
-INFO: Взрослые: [Тимур 45 123@gmail.ru, Артем 53 123@gmail.ru, Денис 45 123@gmail.ru, Александр 60 123@gmail.ru]
-дек. 20, 2024 10:39:30 AM org.example.Main longOperation
+дек. 20, 2024 10:52:32 AM org.example.Main main
+INFO: Средний возраст: 1825
+дек. 20, 2024 10:52:32 AM org.example.Main main
+INFO: Дети: []
+дек. 20, 2024 10:52:32 AM org.example.Main main
+INFO: Молодежь: []
+дек. 20, 2024 10:52:32 AM org.example.Main main
+INFO: Взрослые: [Денис 1829 123@gmail.ru, Данат 1824 123@gmail.ru, Дима 1824 123@gmail.ru, Иван 1824 123@gmail.ru, Элоиза 1823 123@gmail.ru, Тимур 1824 123@gmail.ru, Артем 1827 123@gmail.ru, Павел 1829 123@gmail.ru, Александр 1824 123@gmail.ru]
+дек. 20, 2024 10:52:32 AM org.example.Main longOperation
 INFO: Время выполнения: 0 мс
-дек. 20, 2024 10:39:30 AM org.example.Main getFilterPersons
-INFO: Проверки прошел пользователь с именем Дима
-дек. 20, 2024 10:39:30 AM org.example.Main getFilterPersons
-INFO: Проверки прошел пользователь с именем Элоиза
-дек. 20, 2024 10:39:30 AM org.example.Main getFilterPersons
-INFO: Проверки прошел пользователь с именем Тимур
-дек. 20, 2024 10:39:30 AM org.example.Main getFilterPersons
-INFO: Проверки прошел пользователь с именем Артем
-дек. 20, 2024 10:39:30 AM org.example.Main getFilterPersons
-INFO: Проверки прошел пользователь с именем Александр
-дек. 20, 2024 10:39:30 AM org.example.Main getFilterPersons
-INFO: Проверки прошел пользователь с именем Иван
-дек. 20, 2024 10:39:30 AM org.example.Main getFilterPersons
+дек. 20, 2024 10:52:32 AM org.example.Main getFilterPersons
 INFO: Проверки прошел пользователь с именем Денис
-дек. 20, 2024 10:39:30 AM org.example.Main getFilterPersons
-INFO: Проверки прошел пользователь с именем Кирилл
-дек. 20, 2024 10:39:30 AM org.example.Main getFilterPersons
+дек. 20, 2024 10:52:32 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Данат
+дек. 20, 2024 10:52:32 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Дима
+дек. 20, 2024 10:52:32 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Иван
+дек. 20, 2024 10:52:32 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Элоиза
+дек. 20, 2024 10:52:32 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Тимур
+дек. 20, 2024 10:52:32 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Артем
+дек. 20, 2024 10:52:32 AM org.example.Main getFilterPersons
 INFO: Проверки прошел пользователь с именем Павел
-дек. 20, 2024 10:39:30 AM org.example.Main getFilterPersons
+дек. 20, 2024 10:52:32 AM org.example.Main getFilterPersons
 INFO: Проверки прошел пользователь с именем Александр
-дек. 20, 2024 10:40:46 AM org.example.Main getPersons
+дек. 20, 2024 10:55:44 AM org.example.Main getPersons
 INFO: JSON файл успешно считан
-дек. 20, 2024 10:40:46 AM org.example.Main main
-INFO: Средний возраст: 31
-дек. 20, 2024 10:40:46 AM org.example.Main main
-INFO: Дети: [Юлия 6 123@gmail.ru, Павел 11 123@gmail.ru]
-дек. 20, 2024 10:40:46 AM org.example.Main main
-INFO: Молодежь: [Дима 20 123@gmail.ru, Элоиза 19 123@gmail.ru, Александр 35 123@gmail.ru, Иван 30 123@gmail.ru, Кирилл 23 123@gmail.ru]
-дек. 20, 2024 10:40:46 AM org.example.Main main
-INFO: Взрослые: [Тимур 45 123@gmail.ru, Артем 53 123@gmail.ru, Денис 45 123@gmail.ru, Александр 60 123@gmail.ru]
-дек. 20, 2024 10:40:46 AM org.example.Main longOperation
+дек. 20, 2024 10:55:44 AM org.example.Main main
+INFO: Средний возраст: 33
+дек. 20, 2024 10:55:44 AM org.example.Main main
+INFO: Дети: [Элоиза 7 123@gmail.ru]
+дек. 20, 2024 10:55:44 AM org.example.Main main
+INFO: Молодежь: [Данат 20 123@gmail.ru, Дима 23 123@gmail.ru, Иван 20 123@gmail.ru, Тимур 20 123@gmail.ru, Александр 20 123@gmail.ru]
+дек. 20, 2024 10:55:44 AM org.example.Main main
+INFO: Взрослые: [Денис 74 123@gmail.ru, Артем 47 123@gmail.ru, Павел 70 123@gmail.ru]
+дек. 20, 2024 10:55:44 AM org.example.Main longOperation
 INFO: Время выполнения: 0 мс
-дек. 20, 2024 10:40:46 AM org.example.Main getFilterPersons
-INFO: Проверки прошел пользователь с именем Дима
-дек. 20, 2024 10:40:46 AM org.example.Main getFilterPersons
-INFO: Проверки прошел пользователь с именем Элоиза
-дек. 20, 2024 10:40:46 AM org.example.Main getFilterPersons
-INFO: Проверки прошел пользователь с именем Тимур
-дек. 20, 2024 10:40:46 AM org.example.Main getFilterPersons
-INFO: Проверки прошел пользователь с именем Артем
-дек. 20, 2024 10:40:46 AM org.example.Main getFilterPersons
-INFO: Проверки прошел пользователь с именем Александр
-дек. 20, 2024 10:40:46 AM org.example.Main getFilterPersons
-INFO: Проверки прошел пользователь с именем Иван
-дек. 20, 2024 10:40:46 AM org.example.Main getFilterPersons
+дек. 20, 2024 10:55:44 AM org.example.Main getFilterPersons
 INFO: Проверки прошел пользователь с именем Денис
-дек. 20, 2024 10:40:46 AM org.example.Main getFilterPersons
-INFO: Проверки прошел пользователь с именем Кирилл
-дек. 20, 2024 10:40:46 AM org.example.Main getFilterPersons
+дек. 20, 2024 10:55:44 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Данат
+дек. 20, 2024 10:55:44 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Дима
+дек. 20, 2024 10:55:44 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Иван
+дек. 20, 2024 10:55:44 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Тимур
+дек. 20, 2024 10:55:44 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Артем
+дек. 20, 2024 10:55:44 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Павел
+дек. 20, 2024 10:55:44 AM org.example.Main getFilterPersons
 INFO: Проверки прошел пользователь с именем Александр
+дек. 20, 2024 11:06:02 AM org.example.Main getPersons
+INFO: JSON файл успешно считан
+дек. 20, 2024 11:06:02 AM org.example.Main main
+INFO: Средний возраст: 33
+дек. 20, 2024 11:06:02 AM org.example.Main main
+INFO: Дети: [Элоиза 7 123@gmail.ru]
+дек. 20, 2024 11:06:02 AM org.example.Main main
+INFO: Молодежь: [Данат 20 123@gmail.ru, Дима 23 123@gmail.ru, Иван 20 123@gmail.ru, Тимур 20 123@gmail.ru, Александр 20 123@gmail.ru]
+дек. 20, 2024 11:06:02 AM org.example.Main main
+INFO: Взрослые: [Денис 74 123@gmail.ru, Артем 47 123@gmail.ru, Павел 70 123@gmail.ru]
+дек. 20, 2024 11:06:02 AM org.example.Main longOperation
+INFO: Время выполнения: 0 мс
+дек. 20, 2024 11:06:02 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Денис
+дек. 20, 2024 11:06:02 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Данат
+дек. 20, 2024 11:06:02 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Дима
+дек. 20, 2024 11:06:02 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Иван
+дек. 20, 2024 11:06:02 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Тимур
+дек. 20, 2024 11:06:02 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Артем
+дек. 20, 2024 11:06:02 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Павел
+дек. 20, 2024 11:06:02 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Александр
+дек. 20, 2024 11:08:12 AM org.example.Main getPersons
+INFO: JSON файл успешно считан
+дек. 20, 2024 11:08:12 AM org.example.Main main
+INFO: Средний возраст: 33
+дек. 20, 2024 11:08:12 AM org.example.Main main
+INFO: Дети: [Элоиза 7 123@gmail.ru]
+дек. 20, 2024 11:08:12 AM org.example.Main main
+INFO: Молодежь: [Данат 20 123@gmail.ru, Дима 23 123@gmail.ru, Иван 20 123@gmail.ru, Тимур 20 123@gmail.ru, Александр 20 123@gmail.ru]
+дек. 20, 2024 11:08:12 AM org.example.Main main
+INFO: Взрослые: [Денис 74 123@gmail.ru, Артем 47 123@gmail.ru, Павел 70 123@gmail.ru]
+дек. 20, 2024 11:08:12 AM org.example.Main longOperation
+INFO: Время выполнения: 0 мс
+дек. 20, 2024 11:08:12 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Денис
+дек. 20, 2024 11:08:12 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Данат
+дек. 20, 2024 11:08:12 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Дима
+дек. 20, 2024 11:08:12 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Иван
+дек. 20, 2024 11:08:12 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Тимур
+дек. 20, 2024 11:08:12 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Артем
+дек. 20, 2024 11:08:12 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Павел
+дек. 20, 2024 11:08:12 AM org.example.Main getFilterPersons
+INFO: Проверки прошел пользователь с именем Александр
+дек. 20, 2024 11:08:12 AM org.example.Main getLeapYearPersons
+INFO: Данат родился в високосный год
+дек. 20, 2024 11:08:12 AM org.example.Main getLeapYearPersons
+INFO: Иван родился в високосный год
+дек. 20, 2024 11:08:12 AM org.example.Main getLeapYearPersons
+INFO: Тимур родился в високосный год
+дек. 20, 2024 11:08:12 AM org.example.Main getLeapYearPersons
+INFO: Александр родился в високосный год
